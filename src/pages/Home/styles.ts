@@ -29,6 +29,7 @@ from{
 
 export const Container = styled.div`
   display: grid;
+  background-color: ${BackgroundColor};
   grid-template-columns: 1.5fr 3fr;
   justify-content: center;
   align-items: center;

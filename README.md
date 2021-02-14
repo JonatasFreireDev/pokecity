@@ -1,46 +1,47 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="/src/assets/logo.png" alt="logo" title="logo"  width="70%">
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# PokeCity
 
-## Available Scripts
+Um site simples, onde é possivel informar o nome de uma cidade americana, e de acordo com a temperatura da cidade, nos é mostrado um pokemon aleatório de determinado tipo.
 
-In the project directory, you can run:
+[Link do desafio](https://gitlab.com/enviabybus/weather-pokemon-test/-/tree/master/developer)
 
-### `yarn start`
+[Link do site no ar](https://awesome-bohr-63b7da.netlify.app/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Tecnologias
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+As principais técnologias utilizadas foram:
 
-### `yarn test`
+- React
+- Typescript
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Principais Bibliotecas:
 
-### `yarn build`
+- Unform
+- Axios
+- React Router Dom
+- Styled-Components
+- Yup
+- Eslint
+- Prettier
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Instalação e Execção
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Para executar esse projeto em sua máquina, é necessario ter instalado o `node` e o `yarn`
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Após fazer o download do repositório e descompactar em uma pasta, abra um terminal no diretório onde foi desconpactado, e execute o seguinte comando:
 
-### `yarn eject`
+```sh
+$ yarn
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Este comando fará com que as dependencias do projeto sejam instaladas.
+Agora, basta executar o seguinte comando:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```sh
+$ yarn start
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Uma janela se abrirá no seu navegador, caso não aconteça, acesseo seguinte link `http://localhost:3000/`
